@@ -1,0 +1,149 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpUnleashed", "CSharpUnleashed\CSharpUnleashed.csproj", "{A6E818B6-89DE-4B11-AC8F-3FB435AE27B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exception", "Exception", "{4B64588C-B410-4FED-959A-36BC80263019}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Polymorphism", "Polymorphism", "{F7AF6F53-3F33-42DF-9D83-015CF96331AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overriding.Hiding", "Polymorphism\Overriding.Hiding\Overriding.Hiding.csproj", "{F5D066DC-F436-4860-BB60-F10536AEA04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overloading", "Polymorphism\Overloading\Overloading.csproj", "{C24BDB76-28C9-47C9-9597-5666C7DC48F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finally", "Exceptions\Finally\Finally.csproj", "{36909644-1B7F-43C2-A53A-9B784B5EA612}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates", "Delegates", "{A5FDB9BA-E3A5-45EC-8621-318E9212F1F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates\Delegates.csproj", "{2EB0146C-7A66-44B6-B36D-852F2B625CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegates", "Delegates\MulticastDelegates\MulticastDelegates.csproj", "{388B16AD-3236-4CFA-B0B7-3CA88BE12C0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{C68FFAFE-B827-4A4C-8CB4-864AF626AA1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-4", "Features\CSharp-4\CSharp-4.csproj", "{B26F9999-7D47-45A0-A917-07DB037CD467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-5", "Features\CSharp-5\CSharp-5.csproj", "{E3259D0B-AB4F-4095-8111-280C5AACA2B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitCSharp5", "Features\AsyncAwaitCSharp5\AsyncAwaitCSharp5.csproj", "{E770DCE6-5D77-491C-B126-189B2CB87880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{5134B8F6-62D2-4172-A82D-4B4E6B24640F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomExceptions", "Exceptions\CustomExceptions\CustomExceptions.csproj", "{17BC426B-70FD-451E-81C0-EFA45166AF2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E818B6-89DE-4B11-AC8F-3FB435AE27B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E818B6-89DE-4B11-AC8F-3FB435AE27B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E818B6-89DE-4B11-AC8F-3FB435AE27B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E818B6-89DE-4B11-AC8F-3FB435AE27B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D066DC-F436-4860-BB60-F10536AEA04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D066DC-F436-4860-BB60-F10536AEA04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D066DC-F436-4860-BB60-F10536AEA04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D066DC-F436-4860-BB60-F10536AEA04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24BDB76-28C9-47C9-9597-5666C7DC48F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24BDB76-28C9-47C9-9597-5666C7DC48F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24BDB76-28C9-47C9-9597-5666C7DC48F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24BDB76-28C9-47C9-9597-5666C7DC48F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36909644-1B7F-43C2-A53A-9B784B5EA612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36909644-1B7F-43C2-A53A-9B784B5EA612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36909644-1B7F-43C2-A53A-9B784B5EA612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36909644-1B7F-43C2-A53A-9B784B5EA612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB0146C-7A66-44B6-B36D-852F2B625CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB0146C-7A66-44B6-B36D-852F2B625CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB0146C-7A66-44B6-B36D-852F2B625CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB0146C-7A66-44B6-B36D-852F2B625CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388B16AD-3236-4CFA-B0B7-3CA88BE12C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388B16AD-3236-4CFA-B0B7-3CA88BE12C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388B16AD-3236-4CFA-B0B7-3CA88BE12C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388B16AD-3236-4CFA-B0B7-3CA88BE12C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26F9999-7D47-45A0-A917-07DB037CD467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26F9999-7D47-45A0-A917-07DB037CD467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26F9999-7D47-45A0-A917-07DB037CD467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26F9999-7D47-45A0-A917-07DB037CD467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3259D0B-AB4F-4095-8111-280C5AACA2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3259D0B-AB4F-4095-8111-280C5AACA2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3259D0B-AB4F-4095-8111-280C5AACA2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3259D0B-AB4F-4095-8111-280C5AACA2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E770DCE6-5D77-491C-B126-189B2CB87880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E770DCE6-5D77-491C-B126-189B2CB87880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E770DCE6-5D77-491C-B126-189B2CB87880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E770DCE6-5D77-491C-B126-189B2CB87880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5134B8F6-62D2-4172-A82D-4B4E6B24640F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5134B8F6-62D2-4172-A82D-4B4E6B24640F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5134B8F6-62D2-4172-A82D-4B4E6B24640F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5134B8F6-62D2-4172-A82D-4B4E6B24640F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BC426B-70FD-451E-81C0-EFA45166AF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BC426B-70FD-451E-81C0-EFA45166AF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BC426B-70FD-451E-81C0-EFA45166AF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BC426B-70FD-451E-81C0-EFA45166AF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5D066DC-F436-4860-BB60-F10536AEA04E} = {F7AF6F53-3F33-42DF-9D83-015CF96331AA}
+		{C24BDB76-28C9-47C9-9597-5666C7DC48F6} = {F7AF6F53-3F33-42DF-9D83-015CF96331AA}
+		{36909644-1B7F-43C2-A53A-9B784B5EA612} = {4B64588C-B410-4FED-959A-36BC80263019}
+		{2EB0146C-7A66-44B6-B36D-852F2B625CC9} = {A5FDB9BA-E3A5-45EC-8621-318E9212F1F9}
+		{388B16AD-3236-4CFA-B0B7-3CA88BE12C0D} = {A5FDB9BA-E3A5-45EC-8621-318E9212F1F9}
+		{B26F9999-7D47-45A0-A917-07DB037CD467} = {C68FFAFE-B827-4A4C-8CB4-864AF626AA1B}
+		{E3259D0B-AB4F-4095-8111-280C5AACA2B5} = {C68FFAFE-B827-4A4C-8CB4-864AF626AA1B}
+		{E770DCE6-5D77-491C-B126-189B2CB87880} = {C68FFAFE-B827-4A4C-8CB4-864AF626AA1B}
+		{17BC426B-70FD-451E-81C0-EFA45166AF2B} = {4B64588C-B410-4FED-959A-36BC80263019}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://kumarnitesh.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Polymorphism\\Overriding.Hiding\\Overriding.Hiding.csproj
+		SccProjectTopLevelParentUniqueName1 = CSharpUnleashed.sln
+		SccProjectName1 = Polymorphism/Overriding.Hiding
+		SccLocalPath1 = Polymorphism\\Overriding.Hiding
+		SccProjectUniqueName2 = Polymorphism\\Overloading\\Overloading.csproj
+		SccProjectTopLevelParentUniqueName2 = CSharpUnleashed.sln
+		SccProjectName2 = Polymorphism/Overloading
+		SccLocalPath2 = Polymorphism\\Overloading
+		SccProjectUniqueName3 = CSharpUnleashed\\CSharpUnleashed.csproj
+		SccProjectName3 = CSharpUnleashed
+		SccLocalPath3 = CSharpUnleashed
+		SccProjectUniqueName4 = Exceptions\\Finally\\Finally.csproj
+		SccProjectTopLevelParentUniqueName4 = CSharpUnleashed.sln
+		SccProjectName4 = Exceptions/Finally
+		SccLocalPath4 = Exceptions\\Finally
+		SccProjectUniqueName5 = Delegates\\Delegates\\Delegates.csproj
+		SccProjectTopLevelParentUniqueName5 = CSharpUnleashed.sln
+		SccProjectName5 = Delegates/Delegates
+		SccLocalPath5 = Delegates\\Delegates
+		SccProjectUniqueName6 = Delegates\\MulticastDelegates\\MulticastDelegates.csproj
+		SccProjectTopLevelParentUniqueName6 = CSharpUnleashed.sln
+		SccProjectName6 = Delegates/MulticastDelegates
+		SccLocalPath6 = Delegates\\MulticastDelegates
+		SccProjectUniqueName7 = Features\\CSharp-4\\CSharp-4.csproj
+		SccProjectTopLevelParentUniqueName7 = CSharpUnleashed.sln
+		SccProjectName7 = Features/CSharp-4
+		SccLocalPath7 = Features\\CSharp-4
+		SccProjectUniqueName8 = Features\\CSharp-5\\CSharp-5.csproj
+		SccProjectTopLevelParentUniqueName8 = CSharpUnleashed.sln
+		SccProjectName8 = Features/CSharp-5
+		SccLocalPath8 = Features\\CSharp-5
+		SccProjectUniqueName9 = Features\\AsyncAwaitCSharp5\\AsyncAwaitCSharp5.csproj
+		SccProjectTopLevelParentUniqueName9 = CSharpUnleashed.sln
+		SccProjectName9 = Features/AsyncAwaitCSharp5
+		SccLocalPath9 = Features\\AsyncAwaitCSharp5
+		SccProjectUniqueName10 = ExtensionMethods\\ExtensionMethods.csproj
+		SccProjectName10 = ExtensionMethods
+		SccLocalPath10 = ExtensionMethods
+		SccProjectUniqueName11 = Exceptions\\CustomExceptions\\CustomExceptions.csproj
+		SccProjectTopLevelParentUniqueName11 = CSharpUnleashed.sln
+		SccProjectName11 = Exceptions/CustomExceptions
+		SccLocalPath11 = Exceptions\\CustomExceptions
+	EndGlobalSection
+EndGlobal
